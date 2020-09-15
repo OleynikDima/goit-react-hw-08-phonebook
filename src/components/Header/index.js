@@ -17,14 +17,14 @@ const Header = () => {
                             Home
                     </NavLink>
                     </li>
-                    {/* <li className={style.header_list__item}>
+                    <li className={style.header_list__item}>
                     <NavLink
                             exact 
                             className={style['header_list__link']}
                             to='/news'>
                             News
                     </NavLink>
-                    </li> */}
+                    </li>
                     <li className={style.header_list__item}>
                     <NavLink
                             exact 

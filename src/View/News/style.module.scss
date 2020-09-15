@@ -1,0 +1,21 @@
+.news {
+    &_item {
+        padding: 4px;
+        background-color: rgba(0, 0, 0, 0.459);
+        list-style: none;
+        width: 650px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 20px;
+    };
+    &_images {
+        margin-right: 10px;
+    };
+    &_link {
+        font-weight: normal;
+        font-size: 16px;
+        color: #ffffff;
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,26 @@
+.user {
+    background-color:inherit;
+    margin: 0;
+    padding: 0;
+    padding-right: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    &__images {
+        width: 40px;
+        height: 40px;
+    };
+    &__name {
+        font-family: Roboto;
+        font-size: 16px;
+        margin-right: 5px;
+    };
+};
+
+.layout {
+    margin-right: 40px;
+    overflow: hidden;
+    width: 220px;
+    height: 38px;
+    border-radius: 20px;
+}

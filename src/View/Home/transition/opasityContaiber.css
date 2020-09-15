@@ -1,0 +1,9 @@
+.opasityContaiberTransition-appear {
+    /* opacity: 0; */
+    transform: translateX(-300%);
+}
+.opasityContaiberTransition-appear-active {
+    /* opacity: 1; */
+    transform: translateX(0);
+    transition: all 1000ms ;
+}

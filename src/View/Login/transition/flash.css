@@ -1,0 +1,11 @@
+.flashIn-appear {
+
+    opacity: 0;
+    /* transform: translateX(-100%); */
+    animation-duration: 200ms;
+}
+.flashIn-appear-active {
+    opacity: 1;
+    /* transform: translateX(0); */
+    transition: all 500ms ;
+}

@@ -25,8 +25,7 @@ class UserMenu extends Component {
         const {onLogout,isAuthUser} = this.props;
         const textButtonInfo = isAuthUser ? 'Log Out':'Log In';
         const actionButtonClick = isAuthUser ? onLogout : this.toogleLogIn;
-        const activeBarUser = isAuthUser ? false : isShowBar 
-        
+        const activeBarUser = isAuthUser ? false : isShowBar; 
     return (
             
                 <div>
